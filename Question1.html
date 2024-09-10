@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question-1</title>
+    
+    <!--------------------------------- Links------------------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    
+    <!------------------------------------ Styles  --------------------------------------------->
+    <style>
+        .container-fluid a > img {
+        height: 100px;
+        width: 200px;
+      }
+      body{
+        height: 100vh;
+        width: 100%;
+        background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202211/images-sixteen_nine.jpeg?size=948:533");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+<!--------------------------------------------------------------- Main-Body  ---------------------------------------------------------->
+  <body>
+    <!-------------------------------------------- Responsive Header ---------------------------------------->
+    <header>
+      <!-------------------------------------- Navigation --------------------------------------------------->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!------------------------------ Logo  -------------------------------->
+            <a class="navbar-brand" href="#"
+            ><img
+              src="https://static.vecteezy.com/system/resources/previews/019/766/240/original/amazon-logo-amazon-icon-transparent-free-png.png"
+              alt=""
+          /></a>
+          <!------------------------------------ Offcanvas-Menu-Button ------------------------------- -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+                <!--------------------------------- Offcanvas-Logo  ------------------------>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand" href="#"
+                    ><img
+                      src="https://static.vecteezy.com/system/resources/previews/019/766/240/original/amazon-logo-amazon-icon-transparent-free-png.png"
+                      alt=""
+                  /></a></h5>
+                  <!--------------------- Offcanvas-Close-Button  ------------------------------>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!--------------------------------------- Offcanvas & Main page Links ------------------------------- -->
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bolder fs-5" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link fw-bolder fs-5" href="#">Sell</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder fs-5" href="#">Products</a>
+                  </li>
+                  <!------------------- Dropdown-Menu-1  ---------------------->
+                  <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle nav-link fw-bolder fs-5" data-bs-toggle="dropdown">
+                      Serviceses
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Orders</a></li>
+                      <li><a class="dropdown-item" href="#">Returns & Refunds</a></li>
+                      <li><a class="dropdown-item" href="#">Payments</a></li>
+                    </ul>
+                  </div>
+                  <!------------------- Dropdown-Menu-2  ---------------------->
+                  <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle nav-link fw-bolder fs-5" data-bs-toggle="dropdown">
+                      Prime
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Free Fast Delivery</a></li>
+                      <li><a class="dropdown-item" href="#">Movies & TV Shows</a></li>
+                      <li><a class="dropdown-item" href="#">Ad-Free Musics</a></li>
+                    </ul>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder fs-5" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
